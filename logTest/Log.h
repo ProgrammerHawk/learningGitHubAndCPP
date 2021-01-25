@@ -34,15 +34,15 @@ class LoggingLevel
 {
 public:
     std::string level;
-    Level(std::string Lvl)
+    LoggingLevel(std::string Lvl)
     {
-        if (lvl != "Working" && lvl != "Not Working" && lvl != "Runtime Error" && lvl != "Compiling Error" && lvl != "NULL")
+        if (Lvl != "Working" && Lvl != "Not Working" && Lvl != "Runtime Error" && Lvl != "Compiling Error" && Lvl != "NULL")
         {
             log("Invalid level");
         }
         else
         {
-            level = lvl
+            level = Lvl;
         }
         
     }
@@ -55,7 +55,7 @@ public:
         }
         else
         {
-            level = lvl
+            level = lvl;
         }
     }
-}
+};
