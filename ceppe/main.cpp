@@ -2,6 +2,6 @@
 
 
 int main() {
-    log("SHowing Sanjana");
+    
 }
 
