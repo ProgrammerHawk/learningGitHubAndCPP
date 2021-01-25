@@ -3,11 +3,6 @@
 
 int main()
 {
-    log("hello World");
-    
-    logln("hello world ");
-    
-    logln("hello world ");
-    
+    //test the log function here...
 }
 
