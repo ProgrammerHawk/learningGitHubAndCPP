@@ -3,6 +3,6 @@
 
 int main()
 {
-    //test the log function here...
+    //test the log header file here...
 }
 
