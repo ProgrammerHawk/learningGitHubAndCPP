@@ -9,7 +9,7 @@
 
 #define errorEndTry }
 
-#define errorCatchStart catch(int type){
+#define errorCatchStart catch
 
 #define errorEndCatch }
 //________________________________________________
