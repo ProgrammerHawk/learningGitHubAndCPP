@@ -28,4 +28,3 @@ void logln (L printable)
     /*notes: */
     std::cout << printable;
 }
-
