@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0CAC794B25BF377500A1703E /* ceppe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ceppe; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CAC794B25BF377500A1703E /* LogTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LogTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CAC794E25BF377500A1703E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0CAC795625BF37B700A1703E /* Log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -42,7 +42,7 @@
 		0CAC794225BF377500A1703E = {
 			isa = PBXGroup;
 			children = (
-				0CAC794D25BF377500A1703E /* ceppe */,
+				0CAC794D25BF377500A1703E /* logTest */,
 				0CAC794C25BF377500A1703E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,26 +50,26 @@
 		0CAC794C25BF377500A1703E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CAC794B25BF377500A1703E /* ceppe */,
+				0CAC794B25BF377500A1703E /* LogTest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CAC794D25BF377500A1703E /* ceppe */ = {
+		0CAC794D25BF377500A1703E /* logTest */ = {
 			isa = PBXGroup;
 			children = (
 				0CAC794E25BF377500A1703E /* main.cpp */,
 				0CAC795625BF37B700A1703E /* Log.h */,
 			);
-			path = ceppe;
+			path = logTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CAC794A25BF377500A1703E /* ceppe */ = {
+		0CAC794A25BF377500A1703E /* LogTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CAC795225BF377500A1703E /* Build configuration list for PBXNativeTarget "ceppe" */;
+			buildConfigurationList = 0CAC795225BF377500A1703E /* Build configuration list for PBXNativeTarget "LogTest" */;
 			buildPhases = (
 				0CAC794725BF377500A1703E /* Sources */,
 				0CAC794825BF377500A1703E /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = ceppe;
+			name = LogTest;
 			productName = ceppe;
-			productReference = 0CAC794B25BF377500A1703E /* ceppe */;
+			productReference = 0CAC794B25BF377500A1703E /* LogTest */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CAC794625BF377500A1703E /* Build configuration list for PBXProject "ceppe" */;
+			buildConfigurationList = 0CAC794625BF377500A1703E /* Build configuration list for PBXProject "LogTest" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,7 +110,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CAC794A25BF377500A1703E /* ceppe */,
+				0CAC794A25BF377500A1703E /* LogTest */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CAC794625BF377500A1703E /* Build configuration list for PBXProject "ceppe" */ = {
+		0CAC794625BF377500A1703E /* Build configuration list for PBXProject "LogTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CAC795025BF377500A1703E /* Debug */,
@@ -266,7 +266,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CAC795225BF377500A1703E /* Build configuration list for PBXNativeTarget "ceppe" */ = {
+		0CAC795225BF377500A1703E /* Build configuration list for PBXNativeTarget "LogTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CAC795325BF377500A1703E /* Debug */,
