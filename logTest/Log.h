@@ -28,3 +28,34 @@ void logln (L printable)
     /*notes: */
     std::cout << printable;
 }
+
+class LoggingLevel
+/*notes: */
+{
+public:
+    std::string level;
+    Level(std::string Lvl)
+    {
+        if (lvl != "Working" && lvl != "Not Working" && lvl != "Runtime Error" && lvl != "Compiling Error" && lvl != "NULL")
+        {
+            log("Invalid level");
+        }
+        else
+        {
+            level = lvl
+        }
+        
+    }
+    
+    void switchLevel(std::string lvl)
+    {
+        if (lvl != "Working" && lvl != "Not Working" && lvl != "Runtime Error" && lvl != "Compiling Error" && lvl != "NULL")
+        {
+            log("Invalid level");
+        }
+        else
+        {
+            level = lvl
+        }
+    }
+}
