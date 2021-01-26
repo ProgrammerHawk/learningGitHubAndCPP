@@ -40,7 +40,8 @@ public:
             && Lvl != "Not Working"
             && Lvl != "Runtime Error"
             && Lvl != "Compiling Error"
-            && Lvl != "NULL")
+            && Lvl != "NULL"
+            && Lvl != "Warning")
         {
             log("Invalid level, level will be set to NULL");
             level = "NULL";
@@ -58,7 +59,8 @@ public:
             && lvl != "Not Working"
             && lvl != "Runtime Error"
             && lvl != "Compiling Error"
-            && lvl != "NULL")
+            && lvl != "NULL"
+            && lvl != "Warning")
         {
             log("Invalid level, level will be set to NULL");
             level = "NULL";
