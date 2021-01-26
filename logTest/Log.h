@@ -16,14 +16,14 @@
 
 
 template <class T>
-void log(T printable)
+void logln(T printable)
 {
     /*notes: */
     std::cout << printable << std::endl;
 }
 
 template <class L>
-void logln (L printable)
+void log(L printable)
 {
     /*notes: */
     std::cout << printable;
