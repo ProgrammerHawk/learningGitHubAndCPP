@@ -18,14 +18,14 @@
 template <class T>
 void logln(T printable)
 {
-    /*notes: */
+    /*notes: Sometimes gives error when printing things, because to print certain things, calls are ambigous.*/
     std::cout << printable << std::endl;
 }
 
 template <class L>
 void log(L printable)
 {
-    /*notes: */
+    /*notes: Sometimes gives error when printing things, because to print certain things, calls are ambigous.*/
     std::cout << printable;
 }
 
