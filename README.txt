@@ -1,14 +1,14 @@
 This is guide on how to use this logging header file.
 setup:
-to set it up, download the files, and delete every file except for the Log.h, and this file.
-Then, and the Log.h, to the same folder with the code you wish to use this data logger with.
-Then, in your code file where you are going to use this, type this, "#include "Log.h"".
+to set it up, download the files, and delete every file except for the .h files, and this file.
+Then, put all the .h files, to the same folder with the code you wish to use this data logger with.
+Then, in your code file where you are going to use this, type this, "#include "eachofthedotHfiles.h"".
 your setup is complete.
 
 Use Guide:
 
 each function is easily usable, and you can also edit the data logger for yourself.
-The entire data logger is the Log.h file, and the reason you would keep this, is to refer to the instructions when you need them.
+The entire data logger is made up of the .h files, and the reason you would keep this, is to refer to the instructions when you need them.
 The basic log function will print something to the console without creating the new line.
 the logln function will print something to the console and create a new line.
 type Tstart to starta  block of code, where you can enter any code that will be tried.
