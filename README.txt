@@ -11,11 +11,12 @@ each function is easily usable, and you can also edit the data logger for yourse
 The entire data logger is the Log.h file, and the reason you would keep this, is to refer to the instructions when you need them.
 The basic log function will print something to the console without creating the new line.
 the logln function will print something to the console and create a new line.
-type Tstart to do try {.
-and ETry to end the try.
-type CStart to do catch, and after that, type two parenthesis to put in the type.
-type ECatch to end the catch block.
-create a new LoggingLevel obejct with a constructor to give an initial level.
+type Tstart to starta  block of code, where you can enter any code that will be tried.
+and ETry to end this block of code.
+type CStart to add code to catch any errors in the block of code above.
+type a parenthesis on the space directly after the CStart to add parameters for the block of code.
+type ECatch to end this block.
+create a new LoggingLevel with a constructor to give an initial level.
 The different levels are Working, Not Working, Runtime Error, and Compile Error.
 use the switchLevel function to change the level.
 That is the guide for my data logger class.
