@@ -5,13 +5,13 @@
 
 /*notes: */
 
-#define errorTryStart try{
+#define TStart try{
 
-#define errorEndTry }
+#define ETry }
 
-#define errorCatchStart catch
+#define CStart catch
 
-#define errorEndCatch }
+#define ECatch }
 //________________________________________________
 
 
@@ -36,7 +36,11 @@ public:
     std::string level;
     LoggingLevel(std::string Lvl)
     {
-        if (Lvl != "Working" && Lvl != "Not Working" && Lvl != "Runtime Error" && Lvl != "Compiling Error" && Lvl != "NULL")
+        if (Lvl != "Working"
+            && Lvl != "Not Working"
+            && Lvl != "Runtime Error"
+            && Lvl != "Compiling Error"
+            && Lvl != "NULL")
         {
             log("Invalid level");
         }
@@ -49,7 +53,11 @@ public:
     
     void switchLevel(std::string lvl)
     {
-        if (lvl != "Working" && lvl != "Not Working" && lvl != "Runtime Error" && lvl != "Compiling Error" && lvl != "NULL")
+        if (lvl != "Working"
+            && lvl != "Not Working"
+            && lvl != "Runtime Error"
+            && lvl != "Compiling Error"
+            && lvl != "NULL")
         {
             log("Invalid level");
         }
