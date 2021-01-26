@@ -19,4 +19,5 @@ Type ECatch to end this block.
 Create a new LoggingLevel with a constructor to give an initial level.
 The different levels are Working, Not Working, Runtime Error, Compile Error, NULL, and Warning.
 Use the switchLevel function to change the level.
+to access the level, do yourobjectname.level.
 That is the guide for my data logger class.
