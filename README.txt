@@ -17,6 +17,6 @@ Type CStart to add code to catch any errors in the block of code above.
 Type a parenthesis on the space directly after the CStart to add parameters for the block of code.
 Type ECatch to end this block.
 Create a new LoggingLevel with a constructor to give an initial level.
-The different levels are Working, Not Working, Runtime Error, and Compile Error.
+The different levels are Working, Not Working, Runtime Error, Compile Error, NULL, and Warning.
 Use the switchLevel function to change the level.
 That is the guide for my data logger class.
