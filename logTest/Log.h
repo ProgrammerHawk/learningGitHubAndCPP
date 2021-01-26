@@ -42,7 +42,8 @@ public:
             && Lvl != "Compiling Error"
             && Lvl != "NULL")
         {
-            log("Invalid level");
+            log("Invalid level, level will be set to null.");
+            level = "NULL"
         }
         else
         {
@@ -59,7 +60,8 @@ public:
             && lvl != "Compiling Error"
             && lvl != "NULL")
         {
-            log("Invalid level");
+            log("Invalid level, level will be set to null");
+            level = "NULL"
         }
         else
         {
