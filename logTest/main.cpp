@@ -1,4 +1,4 @@
-#include "Log.h"
+#include "HawkDataLogger.h"
 
 int main()
 {
