@@ -43,7 +43,7 @@ public:
             && Lvl != "NULL")
         {
             log("Invalid level, level will be set to NULL");
-            level = "NULL";
+            level = "NULL"
         }
         else
         {
@@ -61,7 +61,7 @@ public:
             && lvl != "NULL")
         {
             log("Invalid level, level will be set to NULL");
-            level = "NULL";
+            level = "NULL"
         }
         else
         {
